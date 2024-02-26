@@ -1,0 +1,69 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.contact-us{
+background-image: linear-gradient(to right, #2ad1f8,#8a58b9);
+color: white;
+padding: 40px;
+font-size:20px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+form{
+padding: 40px;
+}
+.name label{
+display: block;
+font-size: 24px;
+margin-bottom: 0.25rem;
+}
+
+.invalid{
+border: 2px solid red; /* Adiciona uma borda vermelha */
+}
+
+.name input{
+width: 320px;
+padding: 10px;
+font-size: 18px;
+color: #333;
+margin-bottom: 4px ;
+border: 2px solid #8a58b9;
+}
+
+.error{
+font-size: 12px;
+color: red;
+}
+
+
+hr{
+height: 1px;
+border: none;
+background-image: linear-gradient(to right, #2ad1f8,#8a58b9);
+margin: 30px 0;
+}
+button{ 
+padding: 8px 25px;
+font-size : 20px;
+background-color: none;
+border: 1px solid #8a58b9;
+border-radius: 6px;
+transition: all 0.5s;
+cursor: pointer;
+}
+button:hover{
+background-image: linear-gradient(to right, #2ad1f8,#8a58b9);
+color: white;
+background: 1px solid #fff;
+}
+.error-hidden{
+display: none;
+
+}
